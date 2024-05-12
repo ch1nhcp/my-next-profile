@@ -9,7 +9,7 @@ const BasicInfo = (props: Props) => {
             {/* Basic Info */}
             <div className="flex flex-col text-center md:flex-row border-b pb-16 gap-6 items-center md:text-left md:items-start">
                 {/* Avt */}
-                <Image src="/images/chinh-avt.png" alt="my-avt" width={160} height={160} />
+                <Image className='size-40 h-40 w-40 m-1 rounded-full ring-2 ring-gray-600' src="/images/chinh-avt.png" alt="my-avt" width={160} height={160} />
 
                 {/* Wrapper */}
                 <div className="font-semibold">
